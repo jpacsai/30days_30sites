@@ -301,6 +301,12 @@ template {
 [hidden] {
   display: none; }
 
+body {
+  background-image: url("../images/5788.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: right bottom; }
+
 /* @media screen and (min-width: ...) {
     
 } */

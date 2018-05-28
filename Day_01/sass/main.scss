@@ -1,5 +1,11 @@
 @import "normalize.scss";  
 
-// ...
+body {
+    background-image: url('../images/5788.jpg');
+    height: 100vh;
+    // background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
 
 @import "media.scss";
