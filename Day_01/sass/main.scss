@@ -6,6 +6,26 @@ body {
     // background-size: cover;
     background-repeat: no-repeat;
     background-position: right bottom;
+    text-align: center;
 }
 
+header {
+    margin: 20vh auto 0;
+}
+
+.avatar {
+    width: 60vw;
+}
+
+.name {
+    font-family: 'Annie Use Your Telescope', sans-serif;
+    color: whitesmoke;
+    font-size: 500%;
+    margin: 3% auto 0;
+}
+
+.title {
+    display: block;
+    font-size: 40%;
+}
 @import "media.scss";
