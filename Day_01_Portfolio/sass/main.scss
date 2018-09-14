@@ -1,6 +1,10 @@
 @import "normalize.scss";  
 @import url('https://fonts.googleapis.com/css?family=Lato:300,900');
 
+body {
+    background-color: #e8dacc;
+}
+
 header {
     height: 100vh;
     width: 100vw;
@@ -12,6 +16,9 @@ header {
 }
 
 nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #3c3b37;
     color: white;
     font-family: Lato, sans-serif;
@@ -39,7 +46,7 @@ a:link {
 }
 
 a:hover {
-    color: red;
+    color: #ed8e78;
 }
 
 #titles {
@@ -53,8 +60,56 @@ a:hover {
     text-transform: uppercase;
 
     h1 {
-        letter-spacing: 6px;
+        letter-spacing: 10px;
         font-size: 240%;
+    }
+}
+
+main {
+    h2 {
+        font-family: Lato, sans-serif;
+        text-transform: uppercase;
+        margin: 0 0 2vw;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5vw;
+    }
+
+    #about {
+        color: #3c3b37;
+
+        .about-text {
+            width: 80%;
+            margin: 0;
+            font-family: Lato, sans-serif;
+            font-size: 140%;
+            line-height: 30px;
+        }
+    }
+
+    #projects {
+        color: white;
+        background-color: #3c3b37;
+
+        .project-container {
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .project {
+                background-color: #e8dacc;
+                color: #3c3b37;
+                width: 200px;
+                height: 200px;
+                margin: 20px;
+            }
+        }
     }
 }
 
