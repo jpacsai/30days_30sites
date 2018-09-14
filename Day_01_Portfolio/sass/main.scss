@@ -52,8 +52,6 @@ a:hover {
 #titles {
     height: 100%;
     display: flex;
-    position: relative;
-    z-index: 2;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -61,20 +59,20 @@ a:hover {
     font-family: Lato, sans-serif;
     text-transform: uppercase;
 
-    h1 {
-        letter-spacing: 10px;
-        font-size: 240%;
-    }
-}
+    .titles-container {
+        background-color: #3c3b375e;
+        width: 61vw;
+        height: 36vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
 
-#titles:after {
-    content: '';
-    width: 50vw;
-    height: 20vh;
-    position: relative;
-    z-index: 0;
-    top: -20vh;
-    background-color: #3c3b375e;
+        h1 {
+            letter-spacing: 10px;
+            font-size: 240%;
+        }
+    }
 }
 
 main {
