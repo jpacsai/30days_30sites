@@ -1,5 +1,3 @@
-# 30days_30sites_challenge
-Build a site every day for 30 days with daily prompts that will act as an inspiration for the website 
+# [30days_30sites_challenge](http://www.codelegy.com/courses/30-days-30-sites/)
 
-- Day 1 - Portfolio
-- Day 2 - Event Invitation
+- [ ] Day 1 - Portfolio
