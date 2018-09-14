@@ -57,20 +57,29 @@ a:hover {
     flex-direction: column;
     color: white;
     font-family: Lato, sans-serif;
-    text-transform: uppercase;
 
     .titles-container {
-        background-color: #3c3b375e;
+        background-color: rgba(60, 59, 55, 0.65);
         width: 61vw;
         height: 36vh;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        padding: 20px 0;
 
         h1 {
             letter-spacing: 10px;
-            font-size: 240%;
+            font-size: 380%;
+            text-transform: uppercase;
+            margin-top: 0;
+        }
+
+        h2 {
+            margin: 0;
+            font-weight: 300;
+            font-size: 120%;
+            letter-spacing: 3px;
         }
     }
 }

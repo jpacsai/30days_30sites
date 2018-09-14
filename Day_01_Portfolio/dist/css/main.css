@@ -366,10 +366,9 @@ a:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   color: white;
-  font-family: Lato, sans-serif;
-  text-transform: uppercase; }
+  font-family: Lato, sans-serif; }
   #titles .titles-container {
-    background-color: #3c3b375e;
+    background-color: rgba(60, 59, 55, 0.65);
     width: 61vw;
     height: 36vh;
     display: -webkit-box;
@@ -384,10 +383,18 @@ a:hover {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+    padding: 20px 0; }
     #titles .titles-container h1 {
       letter-spacing: 10px;
-      font-size: 240%; }
+      font-size: 380%;
+      text-transform: uppercase;
+      margin-top: 0; }
+    #titles .titles-container h2 {
+      margin: 0;
+      font-weight: 300;
+      font-size: 120%;
+      letter-spacing: 3px; }
 
 main h2 {
   font-family: Lato, sans-serif;
