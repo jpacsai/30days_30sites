@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,900");
 html {
   line-height: 1.15;
   /* 1 */
@@ -306,6 +307,64 @@ header {
   width: 100vw;
   background: url("../images/background.jpg") no-repeat center center fixed;
   background-size: cover; }
+
+nav {
+  background-color: #3c3b37;
+  color: white;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 40vw;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    nav ul li {
+      list-style: none; }
+
+a:link {
+  color: white;
+  text-decoration: none; }
+
+a:hover {
+  color: red; }
+
+#titles {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase; }
+  #titles h1 {
+    letter-spacing: 6px;
+    font-size: 240%; }
 
 /* @media screen and (min-width: ...) {
     

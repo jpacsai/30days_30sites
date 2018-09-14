@@ -1,4 +1,5 @@
 @import "normalize.scss";  
+@import url('https://fonts.googleapis.com/css?family=Lato:300,900');
 
 header {
     height: 100vh;
@@ -8,6 +9,53 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+nav {
+    background-color: #3c3b37;
+    color: white;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        width: 40vw;
+        justify-content: space-around;
+
+        li {
+            list-style: none;
+        }
+    }
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+#titles {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+
+    h1 {
+        letter-spacing: 6px;
+        font-size: 240%;
+    }
 }
 
 @import "media.scss";
