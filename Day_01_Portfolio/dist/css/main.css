@@ -319,7 +319,7 @@ nav {
   color: white;
   font-family: Lato, sans-serif;
   text-transform: uppercase;
-  height: 5vh;
+  height: 7vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -366,7 +366,8 @@ a:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   color: white;
-  font-family: Lato, sans-serif; }
+  font-family: Lato, sans-serif;
+  text-align: center; }
   #titles .titles-container {
     background-color: rgba(60, 59, 55, 0.65);
     width: 61vw;
@@ -399,7 +400,8 @@ a:hover {
 main h2 {
   font-family: Lato, sans-serif;
   text-transform: uppercase;
-  margin: 0 0 2vw; }
+  margin: 0 0 3vw;
+  letter-spacing: 3px; }
 
 main section {
   display: -webkit-box;
@@ -444,7 +446,47 @@ main #projects {
       color: #3c3b37;
       width: 200px;
       height: 200px;
-      margin: 20px; }
+      margin: 20px;
+      -webkit-transition: 500ms;
+      transition: 500ms;
+      cursor: pointer; }
+      main #projects .project-container .project a {
+        height: 100%;
+        width: 100%; }
+    main #projects .project-container .project:hover {
+      background-color: #ed8e78; }
+
+main #contact {
+  color: #3c3b37; }
+  main #contact .contact-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 80%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    font-size: 300%; }
+  main #contact a {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
 /* @media screen and (min-width: ...) {
     

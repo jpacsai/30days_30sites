@@ -23,7 +23,7 @@ nav {
     color: white;
     font-family: Lato, sans-serif;
     text-transform: uppercase;
-    height: 5vh;
+    height: 7vh;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -57,6 +57,7 @@ a:hover {
     flex-direction: column;
     color: white;
     font-family: Lato, sans-serif;
+    text-align: center;
 
     .titles-container {
         background-color: rgba(60, 59, 55, 0.65);
@@ -88,7 +89,8 @@ main {
     h2 {
         font-family: Lato, sans-serif;
         text-transform: uppercase;
-        margin: 0 0 2vw;
+        margin: 0 0 3vw;
+        letter-spacing: 3px;
     }
 
     section {
@@ -127,7 +129,40 @@ main {
                 width: 200px;
                 height: 200px;
                 margin: 20px;
+                transition: 500ms;
+                cursor: pointer;
+
+                a {
+                    height: 100%;
+                    width: 100%;
+                }
             }
+
+            .project:hover {
+                background-color: #ed8e78;
+            }
+        }
+    }
+
+    #contact {
+        color: #3c3b37;
+
+        .contact-container {
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            align-items: center;
+            justify-content: space-evenly;
+            font-size: 300%;
+        }
+
+        a {
+            height: 60px;
+            width: 60px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 }
