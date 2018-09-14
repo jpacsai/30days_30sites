@@ -355,6 +355,8 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  z-index: 2;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -371,6 +373,15 @@ a:hover {
   #titles h1 {
     letter-spacing: 10px;
     font-size: 240%; }
+
+#titles:after {
+  content: '';
+  width: 50vw;
+  height: 20vh;
+  position: relative;
+  z-index: 0;
+  top: -20vh;
+  background-color: #3c3b375e; }
 
 main h2 {
   font-family: Lato, sans-serif;
