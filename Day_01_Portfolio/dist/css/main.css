@@ -301,7 +301,9 @@ template {
 [hidden] {
   display: none; }
 
-body {
+header {
+  height: 100vh;
+  width: 100vw;
   background: url("../images/background.jpg") no-repeat center center fixed;
   background-size: cover; }
 
