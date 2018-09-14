@@ -307,7 +307,7 @@ body {
 
 header {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background: url("../images/background.jpg") no-repeat center center fixed;
   background-size: cover; }
 
@@ -343,7 +343,8 @@ nav {
     nav ul li {
       list-style: none; }
 
-a:link {
+a:link,
+a:visited {
   color: white;
   text-decoration: none; }
 
@@ -487,6 +488,9 @@ main #contact {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+    main #contact a i {
+      -webkit-transition: 500ms;
+      transition: 500ms; }
 
 /* @media screen and (min-width: ...) {
     

@@ -7,7 +7,7 @@ body {
 
 header {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background: url('../images/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -40,7 +40,8 @@ nav {
     }
 }
 
-a:link {
+a:link,
+a:visited {
     color: white;
     text-decoration: none;
 }
@@ -163,6 +164,10 @@ main {
             display: flex;
             justify-content: center;
             align-items: center;
+
+            i {
+                transition: 500ms;
+            }
         }
     }
 }
